@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         lihatBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //lanjutmigdep
+                startActivity(LihatTeman.getActIntent(MainActivity.this));
             }
         });
     }
